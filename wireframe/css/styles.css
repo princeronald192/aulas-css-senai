@@ -73,6 +73,10 @@ nav ul li a:hover {
 
 }
 
+.posts .card {
+    width: 360px;
+}
+
 .posts img {
     border-radius: 20px 20px;
 }
@@ -92,10 +96,47 @@ nav ul li a:hover {
     margin: 32px 16px;
 }
 
-.posts a{
+.posts a {
     background: #65558f;
     color: #fff;
-    padding:  10px  24px;
+    padding: 10px 24px;
     border-radius: 100px;
     font-size: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.posts a:hover {
+    background: #351683;
+
+}
+
+.posts .footer-card {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-grupo {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.footer-top .conteiner {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+}
+
+.footer-botton {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.titulo {
+    text-align: center;
 }
