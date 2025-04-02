@@ -39,6 +39,7 @@ h3 {
     text-align: center;
     font-size: 48px;
     font-weight: bold;
+    margin: 100px 0;
 }
 
 a{
@@ -147,4 +148,117 @@ nav ul li{
 .about-us-description h4{
     font-size: 40px;
     
+}
+
+/* our features*/
+
+.our-features .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our-features .container .card{
+    width: 300px;
+    padding: 48px 32px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.our-features .container .icon-card{
+    margin-right: 36px;
+
+}
+
+.our-features h4{
+    font-size: 20px;
+    color: #160647;
+}
+
+.our-features p{
+    color: #7a8994;
+    margin: 25px 0 21px;
+    font-size: 14px;
+}
+
+.our-features a{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.our-features a:hover{
+    text-decoration: underline;
+    color: #322853;
+}
+
+
+.testimonials .container{
+    width: 821px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials h3{
+    width: 498px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.testimonial-card .perfil{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.testimonial-card .perfil  .photo-perfl{
+    margin-right: 16px;
+}
+
+.work  .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work .images{
+    margin-right: 48px;
+}
+
+.work .titulo{
+    font-size: 20px;
+    color: #160647;
+    margin-bottom: 18px;
+}
+
+.work  .titulo h4 span{
+    border: 1px solid #160647;
+    font-size: 14px;
+    padding: 5px 18px;
+    margin-right: 29px;
+}
+
+.works .content-description-work{
+    border-left: 1px dashed #84b4b4;
+    margin-left: 15px;
+    padding-left: 42px;
+    height: 260px;
+}
+
+.works .content-description-work ul{
+    list-style: none;
+    padding-left: 42px;
+    font-size: 14px;
+    color: #160647;
+    line-height: 2;
+    margin-top: 43px;
+}
+
+
+/* ready */
+
+.ready fieldset{
+    display: flex;
+    justify-content: space-between;
+    border: none;
 }
